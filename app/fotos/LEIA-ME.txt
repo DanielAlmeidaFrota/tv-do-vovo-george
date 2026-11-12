@@ -1,0 +1,7 @@
+Coloque aqui as fotos da família (.jpg, .jpeg, .png ou .webp).
+
+- Tamanho ideal: 1920x1080 (paisagem). Fotos grandes demais deixam a TV lenta;
+  o ideal é cada uma ter menos de 1 MB.
+- Rode `python scripts/build.py`: ele gera a lista fotos.js sozinho e coloca
+  as fotos dentro do app.
+- As fotos ficam fora do git (.gitignore) para não irem parar no GitHub.

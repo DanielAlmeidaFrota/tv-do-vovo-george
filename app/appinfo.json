@@ -1,0 +1,21 @@
+{
+  "id": "org.webos.tvdovovo",
+  "version": "1.0.0",
+  "vendor": "Família",
+  "type": "web",
+  "main": "index.html",
+  "title": "TV do Vovô",
+  "icon": "assets/icon.png",
+  "largeIcon": "assets/largeIcon.png",
+  "splashBackground": "assets/splash.png",
+  "bgColor": "#000000",
+  "iconColor": "#1a7f37",
+  "resolution": "1920x1080",
+  "handlesRelaunch": false,
+  "supportQuickStart": true,
+  "requiredPermissions": [
+    "applications",
+    "applications.launcher",
+    "system.notifications"
+  ]
+}

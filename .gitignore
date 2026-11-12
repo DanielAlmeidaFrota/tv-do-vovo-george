@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+dist/*.manifest.json
+
+# Fotos da família ficam só no computador (não vão para o GitHub)
+app/fotos/*
+!app/fotos/LEIA-ME.txt
+
+# O .ipk leva as fotos da família dentro; gere com `python scripts/build.py`
+dist/*.ipk
